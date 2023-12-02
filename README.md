@@ -10,8 +10,7 @@ In this article series, we working with a Springboot app consisting of 10 micros
 ## In summary, we will do the following for each environment;
 
 ## In the Testing environment;
-=======
- 
+======= 
 ## In summary, we will do the following for each environment;
 
 ## In the Testing environment; 
@@ -32,6 +31,7 @@ Before the production stage, we will make the final checks on the operation of o
 
 We will use Rancher to create and manage our Kubernetes clusters, create the Rancher server by using Terraform, and install the Rancher into it by using the Helm chart. We will create the cluster on AWS EC2 by using Rancher’s menus. With Rancher, we will easily make changes in the cluster via its dashboard; add nodes, delete nodes, and edit configuration files. We will use MySql Database on the pod for the customer records. Finally, we will check whether our microservices application works in the browser.
 
+
 <<<<<<< HEAD
 ## In the Production environment;
 =======
@@ -48,4 +48,4 @@ we will compile, test (with junit in pom.xml), build, and run our code on the co
 we will compile, test (with junit in pom.xml), build, and run our code on the container via Docker, Docker Compose, and Maven in the development server we will install by using Terraform. We will create and clone Source Code Management Repository(GitHub) to Development Server, and we will work in different branches (dev, feature, bugfix, hotfix, etc.) on GitHub for the DevOps cycle. Finally, We will observe what happens in the containers, after the “docker-compose” command runs.
 
 We will do them all step by step.
->>>>>>> dev
+<<<<<<< HEAD
