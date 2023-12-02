@@ -3,8 +3,6 @@ This repo was created for the article "Working with Microservices-1: Running a J
 
 In this article series, we working with a Springboot app consisting of 10 microservices. It is a Java-based web application developed by Spring company. We will run it on Development, Testing, Staging, and Production environments by using different DevOps tools (Jenkins, Kubernetes and Helm, Docker, Docker Compose, Terraform, Rancher, Nexus Repository, Maven, Ansible, Prometheus and Grafana, GitHub, Amazon Route 53, AWS Certificate Manager, AWS EKS, AWS RDS MySql Database, AWS S3 bucket, Selenium Jobs and Jacoco. ). We will create each environment and run our application in it, we will do all these step by step.
 
-<img align="right" src="https://github.com/cmakkaya/microservices-with-db-on-dev-server/blob/main/flow-chart-for-readme.jpg" />
-
  
 ## In summary, we will do the following for each environment;
 
@@ -31,4 +29,3 @@ We will create the cluster on AWS EKS by using Rancher’s menus. We will use AW
 ## In the Development Server; 
 we will compile, test (with junit in pom.xml), build, and run our code on the container via Docker, Docker Compose, and Maven in the development server we will install by using Terraform. We will create and clone Source Code Management Repository(GitHub) to Development Server, and we will work in different branches (dev, feature, bugfix, hotfix, etc.) on GitHub for the DevOps cycle. Finally, We will observe what happens in the containers, after the “docker-compose” command runs.
 
-We will do them all step by step.
